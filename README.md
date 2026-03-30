@@ -111,12 +111,15 @@ streamlit run app.py
 📈 Performance
 ```
 ---
+
 Real-time detection using YOLOv8
 
 Processing time in milliseconds per frame
 
 Works efficiently on both CPU and GPU
+
 ---
+
 ### ⚠️ Limitations
 Speed estimation is approximate
 
@@ -125,7 +128,10 @@ Depends on camera angle and calibration
 Basic tracking (ID may change across frames)
 
 Real-world accuracy may vary
+
+
 ---
+
 ### 🔮 Future Improvements
 Advanced tracking (DeepSORT)
 
@@ -136,7 +142,9 @@ Real-time alerts
 Cloud deployment
 
 Integration with smart traffic systems
+
 ---
+
 ### 🏙 Applications
 Traffic monitoring
 
@@ -147,7 +155,10 @@ Parking analysis
 Urban planning
 
 Intelligent transportation
+
 ---
+
 ### 📌 Conclusion
 This project demonstrates how AI and computer vision can be used to transform visual data into meaningful traffic insights, enabling smarter and more efficient urban systems.
+
 ---
