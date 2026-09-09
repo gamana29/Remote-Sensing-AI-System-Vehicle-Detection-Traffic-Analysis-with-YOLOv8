@@ -1,13 +1,13 @@
-# 🛰️ Remote Sensing AI System  
+#  Remote Sensing AI System  
 ### Vehicle Detection, Speed & Size Estimation using YOLOv8
 
-## 👩‍💻 Author
+##  Author
 **Chirumamilla Gamana**  
 Roll No: 2320040075  
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project presents a **Remote Sensing AI System** that performs **vehicle detection, tracking, speed estimation, and size analysis** using images and videos.
 
@@ -15,7 +15,7 @@ It leverages **YOLOv8 (You Only Look Once)** for real-time object detection and 
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Detect vehicles (car, truck, bus) using AI  
 - Count and classify vehicles  
@@ -25,7 +25,7 @@ It leverages **YOLOv8 (You Only Look Once)** for real-time object detection and 
 
 ---
 
-## ⚙️ Technologies Used
+##  Technologies Used
 
 - Python  
 - Streamlit  
@@ -36,9 +36,9 @@ It leverages **YOLOv8 (You Only Look Once)** for real-time object detection and 
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
-### 📷 Image Processing
+###  Image Processing
 1. Upload an image  
 2. YOLO detects vehicles  
 3. Bounding boxes are drawn  
@@ -49,7 +49,7 @@ It leverages **YOLOv8 (You Only Look Once)** for real-time object detection and 
 
 ---
 
-### 🎥 Video Processing
+###  Video Processing
 1. Video is split into frames  
 2. YOLO runs on each frame  
 3. Vehicles are detected and tracked  
@@ -60,7 +60,7 @@ It leverages **YOLOv8 (You Only Look Once)** for real-time object detection and 
 
 ---
 
-## 📊 Features
+##  Features
 
 - Real-time vehicle detection  
 - Vehicle counting & classification  
@@ -71,7 +71,7 @@ It leverages **YOLOv8 (You Only Look Once)** for real-time object detection and 
 
 ---
 
-## 🎛️ User Controls
+##  User Controls
 
 - **Confidence Threshold** → Controls detection accuracy  
 - **Frame Skip** → Improves performance for videos  
@@ -80,7 +80,7 @@ It leverages **YOLOv8 (You Only Look Once)** for real-time object detection and 
 
 ---
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 ### 1. Clone the Repository
 ```bash
@@ -102,7 +102,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-### 📁 Project Structure
+###  Project Structure
 ```bash
 ├── app.py
 ├── requirements.txt
@@ -120,7 +120,7 @@ Works efficiently on both CPU and GPU
 
 ---
 
-### ⚠️ Limitations
+###  Limitations
 Speed estimation is approximate
 
 Depends on camera angle and calibration
@@ -132,7 +132,7 @@ Real-world accuracy may vary
 
 ---
 
-### 🔮 Future Improvements
+###  Future Improvements
 Advanced tracking (DeepSORT)
 
 Lane detection
@@ -145,7 +145,7 @@ Integration with smart traffic systems
 
 ---
 
-### 🏙 Applications
+###  Applications
 Traffic monitoring
 
 Smart city systems
@@ -158,7 +158,7 @@ Intelligent transportation
 
 ---
 
-### 📌 Conclusion
+###  Conclusion
 This project demonstrates how AI and computer vision can be used to transform visual data into meaningful traffic insights, enabling smarter and more efficient urban systems.
 
 ---
